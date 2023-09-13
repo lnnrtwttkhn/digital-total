@@ -825,7 +825,7 @@
         }
       }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-          var filterRegex = new RegExp('/' + window.location.host + '/');
+          var filterRegex = new RegExp("https:\/\/github\.com\/lnnrtwttkhn\/digital-total");
         var isInternal = (href) => {
             return filterRegex.test(href) || localhostRegex.test(href);
         }
