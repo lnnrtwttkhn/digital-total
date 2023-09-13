@@ -49,6 +49,56 @@ date: 10/10/2023
 
 :::
 
+# Background
+
+# Digital Research
+
+## Research: Open and reproducible MRI data processing
+
+## Research: Digital, privacy-compliant participant management system
+
+> "We are optimizing the digital recruitment of subjects.
+We have access to a broad participant database or platform through which participants can be recruited according to specific criteria.
+We clarify, the requirements for a platform for online studies, sift and evaluate alternative systems and take care of the technical integration."
+
+![](images/castellum-logo.png)
+
+# Digital Teaching
+
+## Teaching: Boosting digital and data literacy in *students*
+
+## Teaching: Reproducible & FAIR open educational resources (OERs)
+
+Boosting digital and data literacy in *teachers*
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment}
+![[by Scriberia for The Turing Way community (License: CC BY
+4.0)](https://zenodo.org/record/3678226/files/FAIRPrinciples.jpg?download=1)](images/turing-way-fair-principles.jpg)
+
+![[by Wiegers & van Gelder (License: CC BY
+4.0)](https://zenodo.org/record/3678226/files/FAIRPrinciples.jpg?download=1) via @garcia2020](images/fair-teaching-materials.png)
+
+[@plomp2023]
+:::
+::::
+:::: {.column width="50%"}
+::: {.fragment}
+### Scholarship of Teaching
+
+:::
+::::
+:::::
+
+# Summary
+
+## Science as open source *knowledge* development ^[taken from ]
+
+## References
+
+::: {#refs}
+:::
 
 ## Thank you! :pray:
 
@@ -83,5 +133,4 @@ date: 10/10/2023
 :speech_balloon: **Contact:** I welcome any feedback via [email]({{< var mailto >}}) or [GitHub issues]({{< var issues >}}).
 Thank you!
 :::
-
 ::::
