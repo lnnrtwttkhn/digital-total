@@ -3,12 +3,12 @@ title: "{{< var title >}}"
 subtitle: |
   {{< var subtitle >}}
   
-  [{{< fa brands internet-explorer >}} Slides]({{< var website >}}) |
+  [{{< fa display >}} Slides]({{< var website >}}) |
   [{{< fa brands github >}} Source]({{< var source >}})
   
   {{< var license-badge >}}
   {{< var doi-badge >}}
-date: today
+date: 10/10/2023
 ---
 
 ## About
