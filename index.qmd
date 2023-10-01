@@ -51,6 +51,16 @@ date: 10/10/2023
 
 # Background
 
+## Computational Reproducibility
+
+- definition of reproducibility by the TURING way
+- sounds like a minimum requirement 
+- less than half of research is not reproducible
+- not even by the researchers themselves
+
+Start with teaching
+
+
 # Digital Research
 
 ## Research: Open and reproducible MRI data processing
@@ -91,7 +101,14 @@ Boosting digital and data literacy in *teachers*
 ::::
 :::::
 
+cf. Digital Research Academy
+
 # Summary
+
+Take control of academic digital infrastructure
+- science Twitter / mastodon
+- GitHub (Microsoft)
+Public code, public good
 
 ## Science as open source *knowledge* development ^[taken from ]
 
