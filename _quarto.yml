@@ -24,7 +24,7 @@ author:
   # metadata: object
   affiliations:
     - ref: uhh-psych
-    # - ref: mpib
+    - ref: mpib
     # - ref: mps-ucl
 format:
   revealjs:
