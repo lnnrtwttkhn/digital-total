@@ -49,7 +49,7 @@ format:
     preview-links: false
     overview: true
     menu: true
-    chalkboard: true
+    chalkboard: false
     mutliplex: false
     code-fold: show
     code-summary: "Show the code"
