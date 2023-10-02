@@ -94,7 +94,7 @@ We have **access to a broad participant database** through which participants ca
 
 - {{< fa user-group >}} 10 active members (scientific & IT staff)
 - {{< fa user-shield >}} On-going consultations with data protection officer
-- {{< fa display >}} [Project website]({{< var links.castellum-uhh-website >}}) (in German) with open [source code]({{< var links.castellum-uhh-github >}})
+- {{< fa display >}} [Project website]({{< var links.castellum-uhh-website >}}) (in German) with [open-source code]({{< var links.castellum-uhh-github >}})
 :::
 ::::
 :::::
@@ -106,7 +106,7 @@ We have **access to a broad participant database** through which participants ca
 - {{< fa list-check >}} subject management, pseudonyms, recruitment, appointments
 :::
 
-## Research: Open and reproducible MRI data processing
+## MRI Total: Open and reproducible MRI data processing
 
 # Digital Teaching
 
