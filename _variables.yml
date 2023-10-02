@@ -1,6 +1,6 @@
 title: "Science as distributed open-source<br>*knowledge* development"
 subtitle: "[Digital Total](https://www.hcds.uni-hamburg.de/en/current/all-events/digital-total.html) at [University of Hamburg](https://www.uni-hamburg.de/)"
-footer: "Science as distributed open-source *knowledge* development"
+footer: "Science as distributed open-source knowledge development"
 project-name: "digital-total"
 source: "https://github.com/lnnrtwttkhn/{{< var project-name >}}"
 website: "https://lennartwittkuhn.com/{{< var project-name >}}"
