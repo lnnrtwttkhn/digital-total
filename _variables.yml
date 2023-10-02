@@ -23,3 +23,8 @@ linkedin: https://www.linkedin.com/in/lennart-wittkuhn-6a079a1a8/
 scholar: https://scholar.google.com/citations?user=GXvJB1kAAAAJ&hl=en
 orcid: 0000-0003-2966-6888
 orcid-link: "https://orcid.org/{{< var orcid >}}"
+links:
+  castellum-uhh-website: "https://lennartwittkuhn.com/castellum-uhh/"
+  castellum-uhh-github: "https://github.com/lnnrtwttkhn/castellum-uhh/"
+  castellum-mpib-gitlab: "https://git.mpib-berlin.mpg.de/castellum"
+  digital-strategy: "https://www.pb.uni-hamburg.de/ueber-die-fakultaet/downloads/2023-01-26-digitalisierungsstrategie-pb-fakultaet---extern.pdf"

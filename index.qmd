@@ -63,15 +63,50 @@ Start with teaching
 
 # Digital Research
 
+## Castellum: Digital, privacy-compliant participant management system
+
+::::: {.columns}
+:::: {.column width="45%"}
+::: {.fragment}
+
+![](images/vmp5.jpg)
+
+#### Faculty of Psychology & Human Movement Science
+
+> "*We optimize the digital recruitment of study participants.
+We have **access to a broad participant database** through which participants can be **recruited according to specific criteria**."*
+(see [Digital Strategy]({{< var links.digital-strategy >}}), 2022)
+:::
+
+::::
+:::: {.column width="55%"}
+::: {.fragment}
+![](images/castellum-logo-en.png)
+:::
+::: {.fragment}
+- {{< fa laptop-code >}} free to use, digital, [open-source]({{< var links.castellum-mpib-gitlab >}})
+- {{< fa shield-halved >}} GDPR-compliant data protection & security
+- {{< fa building-columns >}} developed at the Max Planck Society
+- {{< fa earth-europe >}} growing international user community
+:::
+::: {.fragment}
+#### Castellum UHH Task Force
+
+- {{< fa user-group >}} 10 active members (scientific & IT staff)
+- {{< fa user-shield >}} On-going consultations with data protection officer
+- {{< fa display >}} [Project website]({{< var links.castellum-uhh-website >}}) (in German) with open [source code]({{< var links.castellum-uhh-github >}})
+:::
+::::
+:::::
+
+::: {.notes}
+[[Source: UHH | Baumann](https://assets.rrz.uni-hamburg.de/instance_assets/fakws/8339594/01-vmp5-2-733x414-e47907398e84a6ac96db292ad74f72d9132b95f9.jpg)]
+- Diverse **participants groups**: All age groups (including children), "special" groups (e.g., with congenital blindness, psychiatric disorders, etc.)
+- Diverse **experimental settings**: In-lab behavioral, groups, online, observational, MRI, EEG, fNIRS, etc.
+- {{< fa list-check >}} subject management, pseudonyms, recruitment, appointments
+:::
+
 ## Research: Open and reproducible MRI data processing
-
-## Research: Digital, privacy-compliant participant management system
-
-> "We are optimizing the digital recruitment of subjects.
-We have access to a broad participant database or platform through which participants can be recruited according to specific criteria.
-We clarify, the requirements for a platform for online studies, sift and evaluate alternative systems and take care of the technical integration."
-
-![](images/castellum-logo.png)
 
 # Digital Teaching
 
