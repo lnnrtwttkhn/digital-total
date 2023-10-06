@@ -176,28 +176,41 @@ See @plomp2023 for an approach using [Quarto](https://quarto.org/) & [Git](https
 Findable: 
 :::
 
-## Teaching: Version Control of Code and Data
+## Digital Literacy: A course on "Version Control of Code and Data"
 
-:::: {.columns}
-::: {.column width="42%"}
 ::: {.fragment}
-... for **code** (text files)
-![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd101212s.gif)](http://phdcomics.com/comics/archive/phd101212s.gif)
+**Summary:** A hands-on seminar about **version control** of code and data using [**Git**](https://git-scm.com/) with curated online materials, interactive discussions, quizzes and exercises, targeted at (aspiring) researchers in Psychology & Neuroscience
 :::
-:::
-::: {.column width="58%"}
+
+
+
+
+
+::::: {.columns}
+:::: {.column width="42%"}
 ::: {.fragment}
-... for **data** (binary files)
-![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)](http://phdcomics.com/comics/archive/phd052810s.gif)
+### Why we need version control ...
+![](images/phd-comic-version-control-code-cropped-upper.gif)
 :::
 ::: {.fragment}
-**When everything is relevant ...**
-:::
-::: {.fragment}
-**... track everything.**
-:::
+!["[notFinal.doc](https://phdcomics.com/comics/archive.php?comicid=1531)" by Jorge Cham ([phdcomics.com](https://phdcomics.com/))](images/phd-comic-version-control-code-cropped-lower.gif)
 :::
 ::::
+:::: {.column width="58%"}
+::: {.fragment}
+### What is version control?
+*"Version control is a systematic approach to record changes in a set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions."* ([Turing Way](https://the-turing-way.netlify.app/reproducible-research/vcs.html))
+:::
+::: {.fragment}
+![](images/version-control-course-website-screenshot.png)
+:::
+::::
+:::::
+
+::: {.notes}
+- Version control is relevant for anyone who wants to track the evolution of digital objects
+- When everything is relevant, track everything.
+:::
 
 # Summary
 
