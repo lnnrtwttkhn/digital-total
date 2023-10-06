@@ -141,8 +141,6 @@ We have **access to a broad participant database** through which participants ca
 
 # Digital Teaching
 
-**Boosting digital and data literacy in *students* and *teachers***
-
 ## Teaching: Reproducible & FAIR open educational resources (OERs)
 
 ::::: {.columns}
