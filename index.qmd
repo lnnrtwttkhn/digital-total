@@ -180,13 +180,9 @@ Findable:
 
 ## Digital Literacy: A course on "Version Control of Code and Data"
 
-::: {.fragment}
+::: {.fragment .fade-in-then-semi-out}
 **Summary:** A hands-on seminar about **version control** of code and data using [**Git**](https://git-scm.com/) with curated online materials, interactive discussions, quizzes and exercises, targeted at (aspiring) researchers in Psychology & Neuroscience
 :::
-
-
-
-
 
 ::::: {.columns}
 :::: {.column width="42%"}
