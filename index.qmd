@@ -156,12 +156,12 @@ We have **access to a broad participant database** through which participants ca
 ::: {.incremental}
 
 - **Findable / Accessible:** Ensure long-term preservation and get a persistent identifier (e.g., DOI) via data repositories, journal articles or OER registries
-- **Interoperable:** Use commonly used formats (e.g., PowerPoint) or plain-text open formats (e.g., Markdown)
+- **Interoperable:** Use plain-text formats (e.g., Markdown) or commonly used formats (e.g., PowerPoint)
 - **Reusable:** Add documentation, metadata and share under an open license (e.g., Creative Commons licenses)
 
 ::: {.fragment}
 ::: {style="font-size: 70%;"}
-For details, also see @plomp2023 (via [Digital Research Academy](https://digital-research.academy/))
+See @plomp2023 for an approach using [Quarto](https://quarto.org/) & [Git](https://git-scm.com/) ([Slides](https://lennartwittkuhn.com/dra-fair-teaching/))
 :::
 :::
 
