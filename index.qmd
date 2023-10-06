@@ -111,7 +111,33 @@ We have **access to a broad participant database** through which participants ca
 - {{< fa list-check >}} subject management, pseudonyms, recruitment, appointments
 :::
 
-## MRI Total: Open and reproducible MRI data processing
+## MRI Total: Transparent and reproducible MRI data processing
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment}
+#### 1. Neuroimaging Data Collection
+![](images/mri.png){width=50%}
+:::
+::: {.fragment}
+#### 2. Standardization of human neuroimaging data
+![Brain Imaging Data Structure [BIDS, @gorgolewski2016]](images/bids.png)
+:::
+::::
+:::: {.column width="45%"}
+::: {.fragment}
+#### 3. Automated MRI data quality control & processing
+![MRIQC [@esteban2017] & fMRIPrep [@esteban2018]](images/fmriprep.png)
+:::
+::: {.fragment}
+#### 4. Open-source software {{< fa link >}} UHH infrastructure
+- {{< fa server >}} High-performance computing (e.g., [Hummel](https://www.datalad.org/))
+- {{< fa code-branch >}} Distributed data management (e.g., [DataLad](https://www.datalad.org/))
+- {{< fa database >}} Data storage on UHH's [Object Storage](https://www.rrz.uni-hamburg.de/en/services/datenhaltung/objektspeicher.html) and [RDR](https://www.fdr.uni-hamburg.de/)
+- {{< fa brands docker >}} Containerized computational environments
+:::
+::::
+:::::
 
 # Digital Teaching
 
