@@ -219,6 +219,23 @@ Public code, public good
 
 ## Science as open source *knowledge* development ^[taken from ]
 
+## Summary
+
+::: {.fragment}
+### Digital Research
+1. **Castellum:** We are setting up a digital, privacy-compliant participant management system
+2. **MRI Total:** We are working on an automated and reproducible pipeline for MRI data processing & quality control
+:::
+::: {.fragment}
+### Digital Teaching
+3. **FAIR & Reproducible Teaching:** We are developing workflows for FAIR, reproducible & open educational resources
+4. **Digital & Data Literacy:** We are teaching version control to the next generation of researchers
+:::
+::: {.fragment}
+### Science as distributed open-source knowledge development
+5. We
+:::
+
 ## References
 
 ::: {#refs}
