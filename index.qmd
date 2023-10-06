@@ -117,29 +117,6 @@ We have **access to a broad participant database** through which participants ca
 
 **Boosting digital and data literacy in *students* and *teachers***
 
-## Teaching: Version Control of Code and Data
-
-:::: {.columns}
-::: {.column width="42%"}
-::: {.fragment}
-... for **code** (text files)
-![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd101212s.gif)](http://phdcomics.com/comics/archive/phd101212s.gif)
-:::
-:::
-::: {.column width="58%"}
-::: {.fragment}
-... for **data** (binary files)
-![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)](http://phdcomics.com/comics/archive/phd052810s.gif)
-:::
-::: {.fragment}
-**When everything is relevant ...**
-:::
-::: {.fragment}
-**... track everything.**
-:::
-:::
-::::
-
 ## Teaching: Reproducible & FAIR open educational resources (OERs)
 
 ::::: {.columns}
@@ -174,6 +151,29 @@ See @plomp2023 for an approach using [Quarto](https://quarto.org/) & [Git](https
 - Interoperable: A PDF is open but difficult to reuse
 Findable: 
 :::
+
+## Teaching: Version Control of Code and Data
+
+:::: {.columns}
+::: {.column width="42%"}
+::: {.fragment}
+... for **code** (text files)
+![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd101212s.gif)](http://phdcomics.com/comics/archive/phd101212s.gif)
+:::
+:::
+::: {.column width="58%"}
+::: {.fragment}
+... for **data** (binary files)
+![[&copy; Jorge Cham (phdcomics.com)](http://phdcomics.com/comics/archive/phd052810s.gif)](http://phdcomics.com/comics/archive/phd052810s.gif)
+:::
+::: {.fragment}
+**When everything is relevant ...**
+:::
+::: {.fragment}
+**... track everything.**
+:::
+:::
+::::
 
 # Summary
 
