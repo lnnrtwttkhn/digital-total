@@ -158,21 +158,21 @@ We have **access to a broad participant database** through which participants ca
 
 ::::: {.columns}
 :::: {.column width="50%"}
-::: {.fragment}
+::: {.fragment .fade-in-then-semi-out}
 #### 1. Neuroimaging Data Collection
 ![](images/mri.png){width=50%}
 :::
-::: {.fragment}
+::: {.fragment .fade-in-then-semi-out}
 #### 2. Standardization of human neuroimaging data
 ![Brain Imaging Data Structure [BIDS, @gorgolewski2016]](images/bids.png)
 :::
 ::::
 :::: {.column width="45%"}
-::: {.fragment}
+::: {.fragment .fade-in-then-semi-out}
 #### 3. Automated MRI data quality control & processing
 ![MRIQC [@esteban2017] & fMRIPrep [@esteban2018]](images/fmriprep.png)
 :::
-::: {.fragment}
+::: {.fragment .fade-in-then-semi-out}
 #### 4. Open-source software {{< fa link >}} UHH infrastructure
 - {{< fa server >}} High-performance computing (e.g., [Hummel](https://www.datalad.org/))
 - {{< fa code-branch >}} Distributed data management (e.g., [DataLad](https://www.datalad.org/))
