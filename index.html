@@ -13,7 +13,7 @@
   <meta name="generator" content="quarto-1.3.450">
 
   <meta name="dcterms.date" content="2023-10-10">
-  <title>Title</title>
+  <title>Science as distributed open-sourceknowledge development</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -31,13 +31,30 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
-  <link href="site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <style>html{ scroll-behavior: smooth; }</style>
   <style type="text/css">
@@ -331,8 +348,8 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Title</h1>
-  <p class="subtitle"></p><p><a href="https://www.hcds.uni-hamburg.de/en/current/all-events/digital-total.html">Digital Total</a></p>
+  <h1 class="title">Science as distributed open-source<br><em>knowledge</em> development</h1>
+  <p class="subtitle"></p><p><a href="https://www.hcds.uni-hamburg.de/en/current/all-events/digital-total.html">Digital Total</a> at <a href="https://www.uni-hamburg.de/">University of Hamburg</a></p>
 <p><a href="https://lennartwittkuhn.com/digital-total"><i class="fa-solid fa-display" aria-label="display"></i> Slides</a> | <a href="https://github.com/lnnrtwttkhn/digital-total"><i class="fa-brands fa-github" aria-label="github"></i> Source</a></p>
 <p><a href="https://creativecommons.org/licenses/by/4.0/"><img data-src="https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg" alt="License: CC BY 4.0"></a> <a href="https://doi.org/10.5281/zenodo.8300151"><img data-src="https://zenodo.org/badge/DOI/10.5281/zenodo.8300151.svg" alt="DOI"></a></p><p></p>
 
@@ -346,7 +363,12 @@
 </div>
         <p class="quarto-title-affiliation">
             <a href="https://www.psy.uni-hamburg.de/en.html">
-            Institute of Psychology, University of Hamburg, Germany
+            Institute of Psychology, University of Hamburg
+            </a>
+          </p>
+        <p class="quarto-title-affiliation">
+            <a href="https://www.mpib-berlin.mpg.de/en">
+            Max Planck Institute for Human Development Berlin
             </a>
           </p>
     </div>
@@ -356,26 +378,450 @@
 </section>
 <section id="about" class="slide level2">
 <h2>About</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
 <div class="fragment">
 <!-- -->
 <h3 id="me">Me</h3>
 <p><span class="emoji" data-emoji="scientist">🧑‍🔬</span> <strong>Position:</strong> Postdoctoral Researcher &amp; Lab Manager at the <a href="https://www.psy.uni-hamburg.de/en.html">Institute of Psychology</a> at the <a href="https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html">University of Hamburg</a></p>
-<p><span class="emoji" data-emoji="mortar_board">🎓</span> <strong>Education:</strong> BSc Psychology &amp; MSc Cognitive Neuroscience (TU Dresden), PhD Cognitive Neuroscience (FU Berlin)</p>
+<p><span class="emoji" data-emoji="mortar_board">🎓</span> <strong>Education:</strong> BSc Psychology &amp; MSc Cognitive Neuroscience (TU Dresden), PhD Psychology (FU Berlin)</p>
 <p><span class="emoji" data-emoji="microscope">🔬</span> <strong>Research:</strong> I study the role of fast neural memory reactivation (“<a href="https://en.wikipedia.org/wiki/Hippocampal_replay">replay</a>”) in the human brain using fMRI</p>
 <p><span class="emoji" data-emoji="link">🔗</span> <strong>Contact:</strong> You can connect with me via <a href="mailto:lennart.wittkuhn@uni-hamburg.de">email</a>, <a href="https://twitter.com/lnnrtwttkhn">Twitter</a>, <a href="https://fediscience.org/@lnnrtwttkhn">Mastodon</a>, <a href="https://github.com/lnnrtwttkhn">GitHub</a> or <a href="https://www.linkedin.com/in/lennart-wittkuhn-6a079a1a8/">LinkedIn</a></p>
 <p><span class="emoji" data-emoji="information_source">ℹ️</span> <strong>Info:</strong> Find out more about my work on <a href="https://lennartwittkuhn.com/">my website</a>, <a href="https://scholar.google.com/citations?user=GXvJB1kAAAAJ&amp;hl=en">Google Scholar</a> and <a href="https://orcid.org/0000-0003-2966-6888">ORCiD</a></p>
 </div>
+</div><div class="column" style="width:50%;">
 <div class="fragment">
 <!-- -->
 <h3 id="this-presentation">This presentation</h3>
-<p><span class="emoji" data-emoji="computer">💻</span> <strong>Slides:</strong> Slides are publicly available at <a href="https://lennartwittkuhn.com/digital-total">https://lennartwittkuhn.com/digital-total</a></p>
-<p><span class="emoji" data-emoji="package">📦</span> <strong>Software:</strong> Reproducible slides built with <a href="https://quarto.org/">Quarto</a> and deployed to <a href="https://pages.github.com/">GitHub Pages</a> using <a href="https://github.com/features/actions">GitHub Actions</a></p>
+<p><span class="emoji" data-emoji="computer">💻</span> <strong>Slides:</strong> <a href="https://lennartwittkuhn.com/digital-total">https://lennartwittkuhn.com/digital-total</a></p>
+<p><i class="fa-brands fa-github" aria-label="github"></i> <strong>Source:</strong> <a href="https://github.com/lnnrtwttkhn/digital-total">https://github.com/lnnrtwttkhn/digital-total</a></p>
+<p><span class="emoji" data-emoji="package">📦</span> <strong>Software:</strong> Open &amp; reproducible slides built with <a href="https://quarto.org/">Quarto</a> and deployed to <a href="https://pages.github.com/">GitHub Pages</a> using <a href="https://github.com/features/actions">GitHub Actions</a></p>
+<p><i class="fa-solid fa-scale-balanced" aria-label="scale-balanced"></i> <strong>License:</strong> Creative Commons Attribution 4.0 International (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</p>
 
 <!-- 
 :trackball: **DOI:** [10.5281/zenodo.5012476](http://doi.org/10.5281/zenodo.5012476) (generated using GitHub releases + Zenodo, see details [here](https://guides.github.com/activities/citable-code/))
 -->
-<p><i class="fa-brands fa-github" aria-label="github"></i> <strong>Source:</strong> Source code is publicly available on GitHub at <a href="https://github.com/lnnrtwttkhn/digital-total">https://github.com/lnnrtwttkhn/digital-total</a></p>
-<p><span class="emoji" data-emoji="pray">🙏</span> <strong>Contact:</strong> I am happy for any feedback or suggestions via <a href="mailto:lennart.wittkuhn@uni-hamburg.de">email</a> or <a href="https://github.com/lnnrtwttkhn/digital-total/issues">GitHub issues</a>. Thank you!</p>
+<p><i class="fa-comments fa-regular" aria-label="regular"></i> <strong>Contact:</strong> I am happy for any feedback or suggestions in person at this event, via <a href="mailto:lennart.wittkuhn@uni-hamburg.de">email</a> or <a href="https://github.com/lnnrtwttkhn/digital-total/issues">GitHub Issues</a>. Thanks!</p>
+</div>
+</div>
+</div>
+</section>
+<section>
+<section id="background" class="title-slide slide level1 center">
+<h1>Background</h1>
+
+</section>
+<section id="computational-reproducibility" class="slide level2">
+<h2>Computational Reproducibility</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment">
+<p><em>… when the <strong>same analysis</strong> steps performed on the <strong>same dataset</strong> consistently produce the <strong>same answer</strong></em> (<a href="https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions">Turing Way</a>)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/turing-way-reproducibility.png"></p>
+<figcaption><a href="https://zenodo.org/record/3678226/files/ReproducibleDefinitionGrid.jpg">by Scriberia for The Turing Way community</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</figcaption>
+</figure>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<!-- -->
+<h3 id="the-problem">The problem</h3>
+</div>
+<div>
+<ul>
+<li class="fragment">about <strong>more than half</strong> of research is <strong>not reproducible</strong> <a href="#/footnotes" class="footnote-ref" id="fnref1" role="doc-noteref" data-footnote-href="#/fn1" onclick=""><sup>1</sup></a>
+<ul>
+<li class="fragment">research data, code, software and materials are <strong>often not available</strong> “upon <em>reasonable</em> [sic] request”</li>
+<li class="fragment">if resources are shared, they are <strong>often incomplete</strong></li>
+</ul></li>
+<li class="fragment">90% agree: “reproducibility crisis” <span class="citation" data-cites="baker2016">(<a href="#/references" role="doc-biblioref" onclick="">Baker 2016</a>)</span></li>
+</ul>
+</div>
+<div class="fragment">
+<!-- -->
+<h3 id="why">Why?</h3>
+</div>
+<div>
+<ul>
+<li class="fragment">computational reproducibility is hard</li>
+<li class="fragment">researchers lack training</li>
+<li class="fragment">incentives are not aligned</li>
+<li class="fragment">“natural selection” of bad science</li>
+<li class="fragment">we need a <strong>professional toolkit</strong></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="fragment">
+<p>“<em>… accumulated evidence indicates that there is <strong>substantial room for improvement</strong> with regard to research practices to maximize the efficiency of the research community’s use of the public’s financial investment.</em>” <span class="citation" data-cites="munafò2017">(<a href="#/references" role="doc-biblioref" onclick="">Munafò et al. 2017</a>)</span></p>
+</div>
+<aside class="notes">
+<ul>
+<li>sometimes also called “analytical reproducibility”</li>
+<li>in contrast: “Replication” = same analysis on different data</li>
+<li>computational reproducibility as a minimum requirement</li>
+<li>90% of respondents to a survey in Nature agreed that there is a “reproducibility crisis”</li>
+<li>non-scientist friends react very surprised at the lack of professionalization in science</li>
+<li>we are currently violating the public’s trust = deep ethical problem</li>
+<li>natural selection: as a researchers, what’s good for your career is not necessarily good for science (how to get funding, how to get published, how to get cited)</li>
+<li>journals are interested in selling us back our data, not improving the quality of science</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside></aside></section></section>
+<section>
+<section id="digital-research" class="title-slide slide level1 center">
+<h1>Digital Research</h1>
+
+</section>
+<section id="castellum-digital-privacy-compliant-participant-management-system" class="slide level2">
+<h2>Castellum: Digital, privacy-compliant participant management system</h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="fragment">
+<p><img data-src="images/vmp5.jpg"></p>
+<h4 id="faculty-of-psychology-human-movement-science">Faculty of Psychology &amp; Human Movement Science</h4>
+<blockquote>
+<p>“<em>We optimize the digital recruitment of study participants. We have <strong>access to a broad participant database</strong> through which participants can be <strong>recruited according to specific criteria</strong>.”</em> (see <a href="https://www.pb.uni-hamburg.de/ueber-die-fakultaet/downloads/2023-01-26-digitalisierungsstrategie-pb-fakultaet—extern.pdf">Digital Strategy</a>, 2022)</p>
+</blockquote>
+</div>
+</div><div class="column" style="width:55%;">
+<div class="fragment">
+<p><img data-src="images/castellum-logo-en.png"></p>
+</div>
+<div class="fragment">
+<ul>
+<li><i class="fa-solid fa-laptop-code" aria-label="laptop-code"></i> free to use, digital, <a href="https://git.mpib-berlin.mpg.de/castellum">open-source</a></li>
+<li><i class="fa-solid fa-shield-halved" aria-label="shield-halved"></i> GDPR-compliant data protection &amp; security</li>
+<li><i class="fa-solid fa-building-columns" aria-label="building-columns"></i> developed at the Max Planck Society</li>
+<li><i class="fa-solid fa-earth-europe" aria-label="earth-europe"></i> growing international user community</li>
+</ul>
+</div>
+<div class="fragment">
+<!-- -->
+<h4 id="castellum-uhh-task-force">Castellum UHH Task Force</h4>
+<ul>
+<li><i class="fa-solid fa-user-group" aria-label="user-group"></i> 10 active members (scientific &amp; IT staff)</li>
+<li><i class="fa-solid fa-user-shield" aria-label="user-shield"></i> On-going consultations with data protection officer</li>
+<li><i class="fa-solid fa-display" aria-label="display"></i> <a href="https://lennartwittkuhn.com/castellum-uhh/">Project website</a> (in German) with <a href="https://github.com/lnnrtwttkhn/castellum-uhh/">open-source code</a></li>
+</ul>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>[<a href="https://assets.rrz.uni-hamburg.de/instance_assets/fakws/8339594/01-vmp5-2-733x414-e47907398e84a6ac96db292ad74f72d9132b95f9.jpg">Source: UHH | Baumann</a>] - Diverse <strong>participants groups</strong>: All age groups (including children), “special” groups (e.g., with congenital blindness, psychiatric disorders, etc.) - Diverse <strong>experimental settings</strong>: In-lab behavioral, groups, online, observational, MRI, EEG, fNIRS, etc. - <i class="fa-solid fa-list-check" aria-label="list-check"></i> subject management, pseudonyms, recruitment, appointments</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="mri-total-transparent-and-reproducible-mri-data-processing" class="slide level2">
+<h2>MRI Total: Transparent and reproducible MRI data processing</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment fade-in-then-semi-out">
+<!-- -->
+<h4 id="neuroimaging-data-collection">1. Neuroimaging Data Collection</h4>
+<p><img data-src="images/mri.png" style="width:50.0%"></p>
+</div>
+<div class="fragment fade-in-then-semi-out">
+<!-- -->
+<h4 id="standardization-of-human-neuroimaging-data">2. Standardization of human neuroimaging data</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/bids.png"></p>
+<figcaption>Brain Imaging Data Structure <span class="citation" data-cites="gorgolewski2016">(BIDS, <a href="#/references" role="doc-biblioref" onclick="">Gorgolewski et al. 2016</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+</div><div class="column" style="width:45%;">
+<div class="fragment fade-in-then-semi-out">
+<!-- -->
+<h4 id="automated-mri-data-quality-control-processing">3. Automated MRI data quality control &amp; processing</h4>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/fmriprep.png"></p>
+<figcaption>MRIQC <span class="citation" data-cites="esteban2017">(<a href="#/references" role="doc-biblioref" onclick="">Esteban et al. 2017</a>)</span> &amp; fMRIPrep <span class="citation" data-cites="esteban2018">(<a href="#/references" role="doc-biblioref" onclick="">Esteban et al. 2018</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+<div class="fragment fade-in-then-semi-out">
+<!-- -->
+<h4 id="open-source-software-fa-link-uhh-infrastructure">4. Open-source software <i class="fa-solid fa-link" aria-label="link"></i> UHH infrastructure</h4>
+<ul>
+<li><i class="fa-solid fa-server" aria-label="server"></i> High-performance computing (e.g., <a href="https://www.datalad.org/">Hummel</a>)</li>
+<li><i class="fa-solid fa-code-branch" aria-label="code-branch"></i> Distributed data management (e.g., <a href="https://www.datalad.org/">DataLad</a>)</li>
+<li><i class="fa-solid fa-database" aria-label="database"></i> Data storage on UHH’s <a href="https://www.rrz.uni-hamburg.de/en/services/datenhaltung/objektspeicher.html">Object Storage</a> and <a href="https://www.fdr.uni-hamburg.de/">RDR</a></li>
+<li><i class="fa-brands fa-docker" aria-label="docker"></i> Containerized computational environments</li>
+</ul>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="digital-teaching" class="title-slide slide level1 center">
+<h1>Digital Teaching</h1>
+
+</section>
+<section id="teaching-reproducible-fair-open-educational-resources-oers" class="slide level2">
+<h2>Teaching: Reproducible &amp; FAIR open educational resources (OERs)</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/fair-principles-nih.png"></p>
+<figcaption>Source: <a href="https://www.nlm.nih.gov/oet/ed/cde/tutorial/02-300.html">National Library of Medicine (NIH)</a>, see also <span class="citation" data-cites="wilkinson2016">Wilkinson et al. (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+</div><div class="column" style="width:50%;">
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/fair-teaching-materials.png"></p>
+<figcaption>Source: <span class="citation" data-cites="wiegers2019">Wiegers and Gelder (<a href="#/references" role="doc-biblioref" onclick="">2019</a>)</span> (License: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>) via <span class="citation" data-cites="garcia2020">Garcia et al. (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span></figcaption>
+</figure>
+</div>
+</div>
+<div>
+<ul>
+<li class="fragment"><strong>Findable / Accessible:</strong> Ensure long-term preservation and get a persistent identifier (e.g., DOI) via data repositories, journal articles or OER registries</li>
+<li class="fragment"><strong>Interoperable:</strong> Use plain-text formats (e.g., Markdown) or commonly used formats (e.g., PowerPoint)</li>
+<li class="fragment"><strong>Reusable:</strong> Add documentation, metadata and share under an open license (e.g., Creative Commons licenses)</li>
+</ul>
+<div class="fragment">
+<div style="font-size: 70%;">
+<p>See <span class="citation" data-cites="plomp2023">Plomp and Wittkuhn (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span> for an approach using <a href="https://quarto.org/">Quarto</a> &amp; <a href="https://git-scm.com/">Git</a> (<a href="https://lennartwittkuhn.com/dra-fair-teaching/">Slides</a>)</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>FAIR principles can also be applied to teaching materials</li>
+<li>Interoperable: A PDF is open but difficult to reuse Findable:</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="digital-literacy-a-course-on-version-control-of-code-and-data" class="slide level2">
+<h2>Digital Literacy: A course on “Version Control of Code and Data”</h2>
+<div class="fragment fade-in-then-semi-out">
+<p><strong>Summary:</strong> A hands-on seminar about <strong>version control</strong> of code and data using <a href="https://git-scm.com/"><strong>Git</strong></a> with curated online materials, interactive discussions, quizzes and exercises, targeted at (aspiring) researchers in Psychology &amp; Neuroscience</p>
+</div>
+<div class="columns">
+<div class="column" style="width:42%;">
+<div class="fragment">
+<!-- -->
+<h3 id="why-we-need-version-control">Why we need version control …</h3>
+<p><img data-src="images/phd-comic-version-control-code-cropped-upper.gif"></p>
+</div>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/phd-comic-version-control-code-cropped-lower.gif"></p>
+<figcaption>“<a href="https://phdcomics.com/comics/archive.php?comicid=1531">notFinal.doc</a>” by Jorge Cham (<a href="https://phdcomics.com/">phdcomics.com</a>)</figcaption>
+</figure>
+</div>
+</div>
+</div><div class="column" style="width:58%;">
+<div class="fragment">
+<!-- -->
+<h3 id="what-is-version-control">What is version control?</h3>
+<p><em>“Version control is a systematic approach to record changes in a set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions.”</em> (<a href="https://the-turing-way.netlify.app/reproducible-research/vcs.html">Turing Way</a>)</p>
+</div>
+<div class="fragment">
+<p><img data-src="images/version-control-course-website-screenshot.png"></p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>Version control is relevant for anyone who wants to track the evolution of digital objects</li>
+<li>When everything is relevant, track everything.</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="summary" class="title-slide slide level1 center">
+<h1>Summary</h1>
+
+</section>
+<section id="science-as-open-source-knowledge-development" class="slide level2">
+<h2>Science as open source <em>knowledge</em> development <a href="#/footnotes" class="footnote-ref" id="fnref2" role="doc-noteref" data-footnote-href="#/fn2" onclick=""><sup>2</sup></a></h2>
+<div class="columns">
+<div class="column" style="width:45%;">
+<div class="fragment">
+<!-- -->
+<h4 id="how-can-we-do-better-science">How can we do better science?</h4>
+<p><img data-src="images/version-control-workflow.png"></p>
+</div>
+<div class="fragment">
+<!-- -->
+<h4 id="the-long-term-challenges-are-largely-non-technical">The long-term challenges are largely non-technical</h4>
+<ul>
+<li>open-source, avoiding commercial vendor lock-in</li>
+<li>adopting new practices and upgrading workflows</li>
+<li>moving towards a “culture of reproducibility” <a href="#/footnotes" class="footnote-ref" id="fnref3" role="doc-noteref" data-footnote-href="#/fn3" onclick=""><sup>3</sup></a></li>
+<li>changing incentives and funding schemes</li>
+</ul>
+</div>
+</div><div class="column" style="width:55%;">
+<div class="fragment">
+<!-- -->
+<h4 id="technical-solutions-already-exist">Technical solutions already exist!</h4>
+<ul>
+<li><strong>Version control</strong> (e.g., Git)</li>
+<li>Integration with <strong>flexible infrastructure</strong> (e.g., GitLab)</li>
+<li>Systematic contributions &amp; review (e.g., pull / merge requests)</li>
+<li>Reproducible <strong>computational environments</strong> (e.g., Docker)</li>
+<li>Transparent workflows and procedures (e.g., GNU Make)</li>
+<li>Project <strong>communication next to code &amp; data</strong> (e.g., Issues)</li>
+</ul>
+</div>
+<div class="fragment">
+<p><img data-src="images/cos-pyramid-cultural-change.png"></p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<ul>
+<li>In science, we try to generate knowledge about the world</li>
+<li>For the sake of insight or explanation but also to perform evidence-based interventions</li>
+<li>Problem: We need to integrate our work with the work of other people into a common body of knowledge</li>
+<li>Process of continuous integration</li>
+<li>It’s fair to say that the way that this is done in science is fairly chaotic</li>
+<li>Other disciplines with a analogous problem have professionalized the process of continuos integration</li>
+<li>primary anology: software development</li>
+<li>why? a lot of contemporary science involves digital research data and involves software development (or code) to analyze these data (or perhaps disciplines could really benefit from this)</li>
+<li>this might be shocking to some (you want to study the brain but now you need to code) but this is the way it is</li>
+<li>software development is a standard part of being a scientist</li>
+<li>we have to understand the tools that we use to do our job</li>
+<li>software development has a lot of tools that allow to handle continous integration professionally</li>
+<li><strong>distributed</strong> and <strong>asynchronous</strong> work in large, international teams</li>
+<li>main work includes working with <strong>data</strong> using <strong>code</strong></li>
+<li>when you train as a software developer, you learn a common stack of tools</li>
+<li>Testing: writing code to test if code works</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+<aside></aside></section>
+<section id="summary-1" class="slide level2">
+<h2>Summary</h2>
+<div class="fragment">
+<!-- -->
+<h3 id="digital-research-1">Digital Research</h3>
+<ol type="1">
+<li><strong>Castellum:</strong> We are setting up a digital, privacy-compliant participant management system</li>
+<li><strong>MRI Total:</strong> We are working on an automated and reproducible pipeline for MRI data processing &amp; quality control</li>
+</ol>
+</div>
+<div class="fragment">
+<!-- -->
+<h3 id="digital-teaching-1">Digital Teaching</h3>
+<ol start="3" type="1">
+<li><strong>FAIR &amp; Reproducible Teaching:</strong> We are developing workflows for FAIR, reproducible &amp; open educational resources</li>
+<li><strong>Digital &amp; Data Literacy:</strong> We are teaching version control to the next generation of researchers</li>
+</ol>
+</div>
+<div class="fragment">
+<!-- -->
+<h3 id="science-as-distributed-open-source-knowledge-development">Science as distributed open-source knowledge development</h3>
+<ol start="5" type="1">
+<li>We</li>
+</ol>
+</div>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-baker2016" class="csl-entry" role="listitem">
+Baker, Monya. 2016. <span>“1,500 Scientists Lift the Lid on Reproducibility.”</span> <em>Nature</em> 533 (7604): 452–54. <a href="https://doi.org/10.1038/533452a">https://doi.org/10.1038/533452a</a>.
+</div>
+<div id="ref-crüwell2023" class="csl-entry" role="listitem">
+Crüwell, Sophia, Deborah Apthorp, Bradley J. Baker, Lincoln Colling, Malte Elson, Sandra J. Geiger, Sebastian Lobentanzer, et al. 2023. <span>“What<span>’</span>s in a Badge? A Computational Reproducibility Investigation of the Open Data Badge Policy in One Issue of <span><em>Psychological Science</em></span>.”</span> <em>Psychological Science</em> 34 (4): 512–22. <a href="https://doi.org/10.1177/09567976221140828">https://doi.org/10.1177/09567976221140828</a>.
+</div>
+<div id="ref-esteban2017" class="csl-entry" role="listitem">
+Esteban, Oscar, Daniel Birman, Marie Schaer, Oluwasanmi O. Koyejo, Russell A. Poldrack, and Krzysztof J. Gorgolewski. 2017. <span>“MRIQC: Advancing the Automatic Prediction of Image Quality in MRI from Unseen Sites.”</span> Edited by Boris C Bernhardt. <em>PLOS ONE</em> 12 (9): e0184661. <a href="https://doi.org/10.1371/journal.pone.0184661">https://doi.org/10.1371/journal.pone.0184661</a>.
+</div>
+<div id="ref-esteban2018" class="csl-entry" role="listitem">
+Esteban, Oscar, Christopher J. Markiewicz, Ross W. Blair, Craig A. Moodie, A. Ilkay Isik, Asier Erramuzpe, James D. Kent, et al. 2018. <span>“fMRIPrep: A Robust Preprocessing Pipeline for Functional MRI.”</span> <em>Nature Methods</em> 16 (1): 111–16. <a href="https://doi.org/10.1038/s41592-018-0235-4">https://doi.org/10.1038/s41592-018-0235-4</a>.
+</div>
+<div id="ref-garcia2020" class="csl-entry" role="listitem">
+Garcia, Leyla, Bérénice Batut, Melissa L. Burke, Mateusz Kuzak, Fotis Psomopoulos, Ricardo Arcila, Teresa K. Attwood, et al. 2020. <span>“Ten Simple Rules for Making Training Materials FAIR.”</span> Edited by Scott Markel. <em>PLOS Computational Biology</em> 16 (5): e1007854. <a href="https://doi.org/10.1371/journal.pcbi.1007854">https://doi.org/10.1371/journal.pcbi.1007854</a>.
+</div>
+<div id="ref-gorgolewski2016" class="csl-entry" role="listitem">
+Gorgolewski, Krzysztof J., Tibor Auer, Vince D. Calhoun, R. Cameron Craddock, Samir Das, Eugene P. Duff, Guillaume Flandin, et al. 2016. <span>“The Brain Imaging Data Structure, a Format for Organizing and Describing Outputs of Neuroimaging Experiments.”</span> <em>Scientific Data</em> 3 (1). <a href="https://doi.org/10.1038/sdata.2016.44">https://doi.org/10.1038/sdata.2016.44</a>.
+</div>
+<div id="ref-hardwicke2021" class="csl-entry" role="listitem">
+Hardwicke, Tom E., Manuel Bohn, Kyle MacDonald, Emily Hembacher, Michèle B. Nuijten, Benjamin N. Peloquin, Benjamin E. deMayo, Bria Long, Erica J. Yoon, and Michael C. Frank. 2021. <span>“Analytic Reproducibility in Articles Receiving Open Data Badges at the Journal <span><em>Psychological Science</em></span> : An Observational Study.”</span> <em>Royal Society Open Science</em> 8 (1). <a href="https://doi.org/10.1098/rsos.201494">https://doi.org/10.1098/rsos.201494</a>.
+</div>
+<div id="ref-munafò2017" class="csl-entry" role="listitem">
+Munafò, Marcus R., Brian A. Nosek, Dorothy V. M. Bishop, Katherine S. Button, Christopher D. Chambers, Nathalie Percie du Sert, Uri Simonsohn, Eric-Jan Wagenmakers, Jennifer J. Ware, and John P. A. Ioannidis. 2017. <span>“A Manifesto for Reproducible Science.”</span> <em>Nature Human Behaviour</em> 1 (1). <a href="https://doi.org/10.1038/s41562-016-0021">https://doi.org/10.1038/s41562-016-0021</a>.
+</div>
+<div id="ref-obels2020" class="csl-entry" role="listitem">
+Obels, Pepijn, Daniël Lakens, Nicholas A. Coles, Jaroslav Gottfried, and Seth A. Green. 2020. <span>“Analysis of Open Data and Computational Reproducibility in Registered Reports in Psychology.”</span> <em>Advances in Methods and Practices in Psychological Science</em> 3 (2): 229–37. <a href="https://doi.org/10.1177/2515245920918872">https://doi.org/10.1177/2515245920918872</a>.
+</div>
+<div id="ref-plomp2023" class="csl-entry" role="listitem">
+Plomp, Esther, and Lennart Wittkuhn. 2023. <em>Reproducible and FAIR Teaching Materials</em>. Zenodo. <a href="https://doi.org/10.5281/ZENODO.8296951">https://doi.org/10.5281/ZENODO.8296951</a>.
+</div>
+<div id="ref-wicherts2006" class="csl-entry" role="listitem">
+Wicherts, Jelte M., Denny Borsboom, Judith Kats, and Dylan Molenaar. 2006. <span>“The Poor Availability of Psychological Research Data for Reanalysis.”</span> <em>American Psychologist</em> 61 (7): 726–28. <a href="https://doi.org/10.1037/0003-066x.61.7.726">https://doi.org/10.1037/0003-066x.61.7.726</a>.
+</div>
+<div id="ref-wiegers2019" class="csl-entry" role="listitem">
+Wiegers, Luc, and Celia W. G. van Gelder. 2019. <span>“Illustration for <span>"</span>Ten Simple Rules for Making Training Materials FAIR<span>"</span>,”</span> December. <a href="https://doi.org/10.5281/ZENODO.3593258">https://doi.org/10.5281/ZENODO.3593258</a>.
+</div>
+<div id="ref-wilkinson2016" class="csl-entry" role="listitem">
+Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, Gabrielle Appleton, Myles Axton, Arie Baak, Niklas Blomberg, et al. 2016. <span>“The FAIR Guiding Principles for Scientific Data Management and Stewardship.”</span> <em>Scientific Data</em> 3 (1). <a href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a>.
+</div>
 </div>
 </section>
 <section id="thank-you" class="slide level2">
@@ -395,10 +841,22 @@
 <p><span class="emoji" data-emoji="speech_balloon">💬</span> <strong>Contact:</strong> I welcome any feedback via <a href="mailto:lennart.wittkuhn@uni-hamburg.de">email</a> or <a href="https://github.com/lnnrtwttkhn/digital-total/issues">GitHub issues</a>. Thank you!</p>
 </div>
 </div>
+</section>
+<section id="reproducibility-crisis" class="slide level2">
+<h2>Reproducibility Crisis</h2>
 
-<div class="footer footer-default">
-<p>Title</p>
+
+<img data-src="images/baker2016-nature-reproducibility.jpg" style="width:60.0%" class="r-stretch quarto-figure-center"><p class="caption"><em>N</em> = 1576; <span class="citation" data-cites="baker2016">Baker (<a href="#/references" role="doc-biblioref" onclick="">2016</a>)</span>, <em>Nature</em></p><div class="footer footer-default">
+<p>Science as distributed open-source knowledge development</p>
 </div>
+</section></section>
+<section id="footnotes" class="footnotes footnotes-end-of-document smaller scrollable" role="doc-endnotes"><h2>Footnotes</h2>
+
+<ol>
+<li id="fn1"><p>e.g., in Psychology: <span class="citation" data-cites="crüwell2023">Crüwell et al. (<a href="#/references" role="doc-biblioref" onclick="">2023</a>)</span>; <span class="citation" data-cites="hardwicke2021">Hardwicke et al. (<a href="#/references" role="doc-biblioref" onclick="">2021</a>)</span>; <span class="citation" data-cites="obels2020">Obels et al. (<a href="#/references" role="doc-biblioref" onclick="">2020</a>)</span>; <span class="citation" data-cites="wicherts2006">Wicherts et al. (<a href="#/references" role="doc-biblioref" onclick="">2006</a>)</span></p></li>
+<li id="fn2"><p>taken from </p></li>
+<li id="fn3"><p>cf.&nbsp;Russ Poldrack</p></li>
+</ol>
 </section>
     </div>
   </div>
@@ -410,7 +868,6 @@
   <script src="site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
   <script src="site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
   <script src="site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -431,8 +888,7 @@
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'chalkboard': {"buttons":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -586,7 +1042,7 @@
         margin: 0.1,
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
           RevealNotes,
           RevealSearch,
@@ -594,7 +1050,6 @@
         ]
       });
     </script>
-    <script defer="" data-domain="lennartwittkuhn.com/digital-total" src="https://plausible.io/js/script.js"></script>
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
