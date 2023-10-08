@@ -360,3 +360,7 @@ Findable:
 Thank you!
 :::
 ::::
+
+## Reproducibility Crisis
+
+![*N* = 1576; @baker2016, *Nature*](images/baker2016-nature-reproducibility.jpg){width=60%}
