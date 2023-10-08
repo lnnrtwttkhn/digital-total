@@ -253,12 +253,56 @@ Findable:
 
 # Summary
 
-Take control of academic digital infrastructure
-- science Twitter / mastodon
-- GitHub (Microsoft)
-Public code, public good
-
 ## Science as open source *knowledge* development ^[taken from ]
+
+::::: {.columns}
+:::: {.column width="45%"}
+::: {.fragment}
+#### How can we do better science?
+![](images/version-control-workflow.png)
+:::
+::: {.fragment}
+#### The long-term challenges are largely non-technical
+- open-source, avoiding commercial vendor lock-in
+- adopting new practices and upgrading workflows
+- moving towards a "culture of reproducibility" ^[cf. Russ Poldrack]
+- changing incentives and funding schemes
+:::
+::::
+:::: {.column width="55%"}
+::: {.fragment}
+#### Technical solutions already exist!
+- **Version control** (e.g., Git)
+- Integration with **flexible infrastructure** (e.g., GitLab)
+- Systematic contributions & review (e.g., pull / merge requests)
+- Reproducible **computational environments** (e.g., Docker)
+- Transparent workflows and procedures (e.g., GNU Make)
+- Project **communication next to code & data** (e.g., Issues)
+:::
+::: {.fragment}
+![](images/cos-pyramid-cultural-change.png)
+:::
+::::
+:::::
+
+::: {.notes}
+- In science, we try to generate knowledge about the world
+- For the sake of insight or explanation but also to perform evidence-based interventions
+- Problem: We need to integrate our work with the work of other people into a common body of knowledge
+- Process of continuous integration
+- It's fair to say that the way that this is done in science is fairly chaotic
+- Other disciplines with a analogous problem have professionalized the process of continuos integration
+- primary anology: software development
+- why? a lot of contemporary science involves digital research data and involves software development (or code) to analyze these data (or perhaps disciplines could really benefit from this)
+- this might be shocking to some (you want to study the brain but now you need to code) but this is the way it is
+- software development is a standard part of being a scientist
+- we have to understand the tools that we use to do our job
+- software development has a lot of tools that allow to handle continous integration professionally
+- **distributed** and **asynchronous** work in large, international teams
+- main work includes working with **data** using **code**
+- when you train as a software developer, you learn a common stack of tools
+- Testing: writing code to test if code works
+:::
 
 ## Summary
 
