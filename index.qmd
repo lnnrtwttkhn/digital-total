@@ -119,10 +119,7 @@ We need a **professional toolkit** for digital scientific outputs!
 
 ::::: {.columns}
 :::: {.column width="45%"}
-::: {.fragment}
-
-![](images/vmp5.jpg)
-
+::: {.fragment fragment-index=1}
 #### Faculty of Psychology & Human Movement Science
 
 > "*We optimize the digital recruitment of study participants.
@@ -130,18 +127,22 @@ We have **access to a broad participant database** through which participants ca
 (see [Digital Strategy]({{< var links.digital-strategy >}}), 2022)
 :::
 
+::: {.fragment fragment-index=3}
+![](images/castellum-functions.png)
+:::
+
 ::::
 :::: {.column width="55%"}
-::: {.fragment}
+::: {.fragment fragment-index=2}
 ![](images/castellum-logo-en.png)
 :::
-::: {.fragment}
+::: {.fragment fragment-index=4}
 - {{< fa laptop-code >}} free to use, digital, [open-source]({{< var links.castellum-mpib-gitlab >}})
 - {{< fa shield-halved >}} GDPR-compliant data protection & security
 - {{< fa building-columns >}} developed at the Max Planck Society
 - {{< fa earth-europe >}} growing international user community
 :::
-::: {.fragment}
+::: {.fragment fragment-index=5}
 #### Castellum UHH Task Force
 
 - {{< fa user-group >}} 10 active members (scientific & IT staff)
