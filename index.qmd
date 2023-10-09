@@ -19,9 +19,9 @@ date: 10/10/2023
 
 ### Me
 
-:scientist: **Position:** Postdoctoral Researcher & Lab Manager at the [Institute of Psychology](https://www.psy.uni-hamburg.de/en.html) at the [University of Hamburg](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html)
+:scientist: **Position:** I am a **Postdoctoral Research Scientist** in the Research Group ["Mechanisms of Learning & Change"](https://schucklab.gitlab.io/) at the [Institute of Psychology](https://www.psy.uni-hamburg.de/en.html) at the [University of Hamburg](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html)
 
-:mortar_board: **Education:** BSc Psychology & MSc Cognitive Neuroscience (TU Dresden), PhD Psychology (FU Berlin)
+:mortar_board: **Education:** BSc Psychology & MSc Cognitive Neuroscience (Technische Universität Dresden), PhD Cognitive Neuroscience (Freie Universität Berlin)
 
 :link: **Contact:** You can connect with me via [email]({{< var mailto >}}), [Twitter]({{< var twitter >}}), [Mastodon]({{< var mastodon >}}),
 [GitHub]({{< var github >}}) or
@@ -162,7 +162,12 @@ We have **access to a broad participant database** through which participants ca
 :::: {.column width="50%"}
 ::: {.fragment .fade-in-then-semi-out}
 #### 1. Neuroimaging Data Collection
+::: {layout-ncol=2}
 ![](images/mri.png){width=50%}
+
+![](images/brain-anatomical.png){width=40%}
+:::
+
 :::
 ::: {.fragment .fade-in-then-semi-out}
 #### 2. Standardization of human neuroimaging data
@@ -176,8 +181,8 @@ We have **access to a broad participant database** through which participants ca
 :::
 ::: {.fragment .fade-in-then-semi-out}
 #### 4. Open-source software {{< fa link >}} UHH infrastructure
-- {{< fa server >}} High-performance computing (e.g., [Hummel](https://www.datalad.org/))
-- {{< fa code-branch >}} Distributed data management (e.g., [DataLad](https://www.datalad.org/))
+- {{< fa server >}} High-performance computing (using [Hummel](https://www.datalad.org/))
+- {{< fa code-branch >}} Distributed data management (using [DataLad](https://www.datalad.org/))
 - {{< fa database >}} Data storage on UHH's [Object Storage](https://www.rrz.uni-hamburg.de/en/services/datenhaltung/objektspeicher.html) and [RDR](https://www.fdr.uni-hamburg.de/)
 - {{< fa brands docker >}} Containerized computational environments
 :::
@@ -267,7 +272,7 @@ See @plomp2023 for an approach using [Quarto](https://quarto.org/) & [Git](https
 - open-source, avoiding commercial vendor lock-in
 - adopting new practices and upgrading workflows
 - moving towards a "culture of reproducibility" ^[see ["Towards a culture of computational reproducibility"](https://mediasite.video.ufl.edu/Mediasite/Play/b26b123b082e4adba367b8f2b91ce34a1d) by Russ Poldrack, Stanford University]
-- changing incentives and funding schemes
+- changing incentives, policies & funding schemes
 :::
 ::::
 :::: {.column width="55%"}
@@ -308,17 +313,17 @@ See @plomp2023 for an approach using [Quarto](https://quarto.org/) & [Git](https
 
 ## Summary
 
-::: {.fragment}
+::: {.fragment .fade-in-then-semi-out}
 ### Digital Research
 1. **Castellum:** We are setting up a digital, privacy-compliant participant management system
 2. **MRI Total:** We are working on an automated and reproducible pipeline for MRI data processing & quality control
 :::
-::: {.fragment}
+::: {.fragment .fade-in-then-semi-out}
 ### Digital Teaching
 3. **FAIR & Reproducible Teaching:** We are developing workflows for FAIR, reproducible & open educational resources
 4. **Digital & Data Literacy:** We are teaching version control to the next generation of researchers
 :::
-::: {.fragment}
+::: {.fragment .fade-in-then-semi-out}
 ### Science as distributed open-source knowledge development
 5. We need a **professional toolkit for digital research outputs**, inspired by open-source software development
 :::
