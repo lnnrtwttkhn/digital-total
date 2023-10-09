@@ -69,7 +69,7 @@ format:
       eval: false
       echo: true
     bibliography: references.bib
-    # csl: "apa-6th-edition.csl"
+    csl: "apa.csl"
     language: en
     copyright: "Lennart Wittkuhn"
     license: "CC BY"
