@@ -153,7 +153,6 @@ We have **access to a broad participant database** through which participants ca
 :::::
 
 ::: {.notes}
-[[Source: UHH | Baumann](https://assets.rrz.uni-hamburg.de/instance_assets/fakws/8339594/01-vmp5-2-733x414-e47907398e84a6ac96db292ad74f72d9132b95f9.jpg)]
 - Diverse **participants groups**: All age groups (including children), "special" groups (e.g., with congenital blindness, psychiatric disorders, etc.)
 - Diverse **experimental settings**: In-lab behavioral, groups, online, observational, MRI, EEG, fNIRS, etc.
 - {{< fa list-check >}} subject management, pseudonyms, recruitment, appointments
@@ -258,34 +257,35 @@ Findable:
 
 # Summary
 
-## Science as open source *knowledge* development ^[taken from ]
+## Science as open source *knowledge* development ^[inspired by [Richard McElreath](https://www.eva.mpg.de/ecology/staff/richard-mcelreath/)'s ["Science as Amateur Software Development"](https://www.youtube.com/watch?v=8qzVV7eEiaI) (2023)]
 
 ::::: {.columns}
 :::: {.column width="45%"}
-::: {.fragment}
+::: {.fragment fragment-index=1}
 #### How can we do better science?
 ![](images/version-control-workflow.png)
 :::
-::: {.fragment}
+::: {.fragment fragment-index=3}
 #### The long-term challenges are largely non-technical
 - open-source, avoiding commercial vendor lock-in
 - adopting new practices and upgrading workflows
-- moving towards a "culture of reproducibility" ^[cf. Russ Poldrack]
+- moving towards a "culture of reproducibility" ^[see ["Towards a culture of computational reproducibility"](https://mediasite.video.ufl.edu/Mediasite/Play/b26b123b082e4adba367b8f2b91ce34a1d) by Russ Poldrack, Stanford University]
 - changing incentives and funding schemes
 :::
 ::::
 :::: {.column width="55%"}
-::: {.fragment}
+::: {.fragment fragment-index=2}
 #### Technical solutions already exist!
-- **Version control** (e.g., Git)
-- Integration with **flexible infrastructure** (e.g., GitLab)
-- Systematic contributions & review (e.g., pull / merge requests)
-- Reproducible **computational environments** (e.g., Docker)
-- Transparent workflows and procedures (e.g., GNU Make)
-- Project **communication next to code & data** (e.g., Issues)
+- **Version control** of digital research outputs (e.g., [Git](https://gitlab.com/), [DataLad](https://www.datalad.org/))
+- Integration with **flexible infrastructure** (e.g., [GitLab](https://gitlab.com/))
+- Systematic **contributions** & review (e.g., [pull](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) / [merge](https://docs.gitlab.com/ee/user/project/merge_requests/) requests)
+- **Automated integration** & deployment (e.g., [CI/CD](https://about.gitlab.com/topics/ci-cd/))
+- Reproducible **computational environments** (e.g., [Docker](https://www.docker.com/))
+- Transparent **execution** and **build** systems (e.g., [GNU Make](https://www.gnu.org/software/make/))
+- Project **communication next to code & data** (e.g., [Issues](https://github.com/features/issues))
 :::
-::: {.fragment}
-![](images/cos-pyramid-cultural-change.png)
+::: {.fragment fragment-index=4}
+![Source: ["Strategy for Cultural Change"](https://www.cos.io/blog/strategy-for-culture-change) (2019) by the [Center for Open Science](https://www.cos.io/)](images/cos-pyramid-cultural-change.png){width=80%}
 :::
 ::::
 :::::
@@ -323,7 +323,7 @@ Findable:
 :::
 ::: {.fragment}
 ### Science as distributed open-source knowledge development
-5. We
+5. We need a **professional toolkit for digital research outputs**, inspired by open-source software development
 :::
 
 ## References
@@ -331,7 +331,7 @@ Findable:
 ::: {#refs}
 :::
 
-## Thank you! :pray:
+## Thank you!
 
 :::: {.columns}
 ::: {.column width="35%"}
@@ -347,19 +347,20 @@ Findable:
 {{< fa brands twitter >}} [Twitter]({{< var twitter >}})
 :::
 
-::: {.column width="40%"}
+::: {.column width="65%"}
 
-:computer: **Slides:** Slides are publicly available at [{{< var website >}}]({{< var website >}})
+:computer: **Slides:** [{{< var website >}}]({{< var website >}})
+
+{{< fa brands github >}} **Source:** [{{< var source >}}]({{< var source >}})
 
 :package: **Software:** Reproducible slides build with [Quarto](https://quarto.org/) and deployed to [GitHub Pages](https://pages.github.com/) using [GitHub Actions](https://github.com/features/actions) (details in the [Quarto docs](https://quarto.org/docs/publishing/github-pages.html))
-
-{{< fa brands github >}} **Source:** Source code is available at [{{< var source >}}]({{< var source >}})
 
 :trackball: **DOI:** [10.5281/zenodo.8296951 ](https://zenodo.org/badge/latestdoi/682015737) (generated using GitHub + [Zenodo](https://zenodo.org/), see [GitHub docs](https://guides.github.com/activities/citable-code/))
 
 {{< fa scale-balanced >}} **License:** {{< var license-long >}}
 
-:speech_balloon: **Contact:** I welcome any feedback via [email]({{< var mailto >}}) or [GitHub issues]({{< var issues >}}).
+{{< fa comments regular >}} **Feedback:** in person at this event, via [email]({{< var mailto >}}) or [GitHub Issues]({{< var issues >}})
+
 Thank you!
 :::
 ::::
