@@ -13,44 +13,380 @@ date: 10/10/2023
 
 ## About
 
+::::: {.columns}
+:::: {.column width="50%"}
 ::: {.fragment}
 
 ### Me
 
-:scientist: **Position:** Postdoctoral Researcher & Lab Manager at the [Institute of Psychology](https://www.psy.uni-hamburg.de/en.html) at the [University of Hamburg](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html)
+:microscope: **Position:** I am a **Postdoctoral Research Scientist** in the Research Group ["Mechanisms of Learning & Change"](https://schucklab.gitlab.io/) at the [Institute of Psychology](https://www.psy.uni-hamburg.de/en.html) at the [University of Hamburg](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html)
 
-:mortar_board: **Education:** BSc Psychology & MSc Cognitive Neuroscience (TU Dresden), PhD Cognitive Neuroscience (FU Berlin)
-
-:microscope: **Research:** I study the role of fast neural memory reactivation ("[replay](https://en.wikipedia.org/wiki/Hippocampal_replay)") in the human brain using fMRI
+:mortar_board: **Education:** BSc Psychology & MSc Cognitive Neuroscience (Technische Universität Dresden), PhD Cognitive Neuroscience (Freie Universität Berlin)
 
 :link: **Contact:** You can connect with me via [email]({{< var mailto >}}), [Twitter]({{< var twitter >}}), [Mastodon]({{< var mastodon >}}),
 [GitHub]({{< var github >}}) or
 [LinkedIn]({{< var linkedin >}})
 
 :information_source: **Info:** Find out more about my work on [my website]({{< var homepage >}}), [Google Scholar]({{< var scholar >}}) and [ORCiD]({{< var orcid-link >}})
-
 :::
-
+::::
+:::: {.column width="50%"}
 ::: {.fragment}
 
 ### This presentation
 
-:computer: **Slides:** Slides are publicly available at [{{< var website >}}]({{< var website >}})
+:computer: **Slides:** [{{< var website >}}]({{< var website >}})
 
-:package: **Software:** Reproducible slides built with [Quarto](https://quarto.org/) and deployed to [GitHub Pages](https://pages.github.com/) using [GitHub Actions](https://github.com/features/actions)
+{{< fa brands github >}} **Source:** [{{< var source >}}]({{< var source >}})
+
+:package: **Software:** Open & reproducible slides built with [Quarto](https://quarto.org/) and deployed to [GitHub Pages](https://pages.github.com/) using [GitHub Actions](https://github.com/features/actions)
+
+{{< fa scale-balanced >}} **License:** Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
 
 <!-- 
 :trackball: **DOI:** [10.5281/zenodo.5012476](http://doi.org/10.5281/zenodo.5012476) (generated using GitHub releases + Zenodo, see details [here](https://guides.github.com/activities/citable-code/))
 -->
 
-{{< fa brands github >}} **Source:** Source code is publicly available on GitHub at [{{< var source >}}]({{< var source >}})
-
-:pray: **Contact:** I am happy for any feedback or suggestions via [email]({{< var mailto >}}) or [GitHub issues]({{< var issues >}}). Thank you!
+{{< fa comments regular >}} **Contact:** I am happy for any feedback or suggestions in person at this event, via [email]({{< var mailto >}}) or [GitHub Issues]({{< var issues >}}).
+Thanks!
 
 :::
+::::
+:::::
+
+# Agenda
+
+1. **Digital Research & Digital Teaching**
+1. **{{< var footer >}}**
+
+::: {.notes}
+Two topics:
+1. Digital Research & Digital Teaching in our research group, institute and factulty
+1. Propose an idea of how we can conduct science in this age of digitalization, data and code
+
+- Title is cliff-hanger for the last part of my talk
+:::
+
+## Our research on "Mechanisms of Learning and Change"
+::: {.fragment}
+#### How does the brain use past experience to guide future decisions?
+<br>
+:::
+
+::::: {.columns}
+:::: {.column width="60%"}
+::: {.fragment}
+![taken from @lake2016: "Building machines that learn and think like people"](images/lake-learning.jpeg)
+:::
+::::
+:::: {.column width="40%"}
+::: {.fragment}
+![](images/research-areas.png)
+:::
+::::
+:::::
+
+::: {.notes}
+- we heard a lot about artificial intelligence
+- what does "intelligence" even mean?
+- as psychologists & cognitive neuroscientists we are interested in understanding human "natural" or biological intelligence
+- our group: intersted in the convergence between neuroscience and artifiicial intelligence research ("neuro AI")
+- e.g., "why are humans so fast in learning a wide range of tasks in complex environments"
+- we use cogntive and psychological approaches, neural measurmenet using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks
+:::
+
+# Digital Research
+
+## Castellum: Digital, privacy-compliant participant management system
+
+::::: {.columns}
+:::: {.column width="45%"}
+::: {.fragment fragment-index=1}
+#### Faculty of Psychology & Human Movement Science
+
+> "*We optimize the digital recruitment of study participants.
+We have **access to a broad participant database** through which participants can be **recruited according to specific criteria**."*
+(see [Digital Strategy]({{< var links.digital-strategy >}}), 2022)
+:::
+
+::: {.fragment fragment-index=3}
+![](images/castellum-functions.png)
+:::
+
+::::
+:::: {.column width="55%"}
+::: {.fragment fragment-index=2}
+![](images/castellum-logo-en.png)
+:::
+::: {.fragment fragment-index=4}
+- {{< fa laptop-code >}} free to use, digital, [open-source]({{< var links.castellum-mpib-gitlab >}})
+- {{< fa shield-halved >}} GDPR-compliant data protection & security
+- {{< fa building-columns >}} developed at the Max Planck Society
+- {{< fa earth-europe >}} growing international user community
+:::
+::: {.fragment fragment-index=5}
+#### Castellum UHH Task Force
+
+- {{< fa user-group >}} 10 active members (scientific & IT staff)
+- {{< fa user-shield >}} On-going consultations with data protection officer
+- {{< fa display >}} [Project website]({{< var links.castellum-uhh-website >}}) (in German) with [open-source code]({{< var links.castellum-uhh-github >}})
+:::
+::::
+:::::
+
+::: {.notes}
+- main research: experimental studies with human research participants
+- **Diverse participants groups**: All age groups (including children), "special" groups (e.g., with congenital blindness, psychiatric disorders, etc.)
+- **Diverse experimental settings**: In-lab behavioral, groups, online, observational, MRI, EEG, fNIRS, etc.
+- functions: subject management, pseudonyms, recruitment, appointments
+- a crucial part of our work is the recruitment of research participants
+- currently, no sytematic way
+:::
+
+## MRI Total: Transparent and reproducible MRI data processing
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment .fade-in-then-semi-out}
+#### 1. Neuroimaging Data Collection
+::: {layout-ncol=2}
+![](images/mri.png){width=50%}
+
+![](images/brain-anatomical.png){width=40%}
+:::
+
+:::
+::: {.fragment .fade-in-then-semi-out}
+#### 2. Standardization of human neuroimaging data
+![Brain Imaging Data Structure [BIDS, @gorgolewski2016]](images/bids.png){width=85%}
+:::
+::::
+:::: {.column width="45%"}
+::: {.fragment .fade-in-then-semi-out}
+#### 3. Automated MRI data quality control & processing
+![MRIQC [@esteban2017] & fMRIPrep [@esteban2018]](images/fmriprep.png)
+:::
+::: {.fragment .fade-in-then-semi-out}
+#### 4. Open-source software {{< fa link >}} UHH infrastructure
+- {{< fa server >}} High-performance computing (using [Hummel](https://www.datalad.org/))
+- {{< fa code-branch >}} Distributed data management (using [DataLad](https://www.datalad.org/))
+- {{< fa database >}} Data storage on UHH's [Object Storage](https://www.rrz.uni-hamburg.de/en/services/datenhaltung/objektspeicher.html) and [RDR](https://www.fdr.uni-hamburg.de/)
+- {{< fa brands docker >}} Containerized computational environments
+:::
+::::
+:::::
+
+::: {.notes}
+- we are interested in how the brain works
+- we use MRI to see the brain in action
+- this results in large amount of very complex data that we need to store, process and analyze
+- this project (in honor of this event: MRI total): we are working on a data procesing pipeline that allows us ti process our data in an automated, transparent, reproducible and reusable way
+:::
+
+# Digital Teaching
+
+## Teaching: Reproducible & FAIR open educational resources (OERs)
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment}
+![Source: [National Library of Medicine (NIH)](https://www.nlm.nih.gov/oet/ed/cde/tutorial/02-300.html), see also @wilkinson2016](images/fair-principles-nih.png)
+:::
+::::
+:::: {.column width="50%"}
+::: {.fragment}
+![Source: @wiegers2019 (License: [CC BY
+4.0](https://creativecommons.org/licenses/by/4.0/)) via @garcia2020](images/fair-teaching-materials.png)
+:::
+::: {.incremental}
+
+- **Findable / Accessible:** Ensure long-term preservation and get a persistent identifier (e.g., DOI) via data repositories, journal articles or OER registries
+- **Interoperable:** Use plain-text formats (e.g., Markdown) or commonly used formats (e.g., PowerPoint)
+- **Reusable:** Add documentation, metadata and share under an open license (e.g., Creative Commons licenses)
+
+::: {.fragment}
+::: {style="font-size: 70%;"}
+See @plomp2023 for an approach using [Quarto](https://quarto.org/) & [Git](https://git-scm.com/) ([Slides](https://lennartwittkuhn.com/dra-fair-teaching/))
+:::
+:::
+
+:::
+::::
+:::::
+
+::: {.notes}
+- Teaching and teaching preparation can take a lot of time
+- Wouldn't it be nice if we can easily access, reuse or adapt teaching materials by others or even collaborate on the development of teaching materials
+- we are working out an approach to prepare reproducible & FAIR open education resources
+- FAIR principles can also be applied to teaching materials
+- Interoperable: A PDF is open but difficult to reuse
+:::
+
+## Digital Literacy: A course on "Version Control of Code and Data"
+
+::: {.fragment .fade-in-then-semi-out}
+**Summary:** A hands-on seminar about **version control** of code and data using [**Git**](https://git-scm.com/) with curated online materials, interactive discussions, quizzes and exercises, targeted at (aspiring) researchers in Psychology & Neuroscience
+:::
+
+::::: {.columns}
+:::: {.column width="42%"}
+::: {.fragment}
+### Why we need version control ...
+![](images/phd-comic-version-control-code-cropped-upper.gif)
+:::
+::: {.fragment}
+!["[notFinal.doc](https://phdcomics.com/comics/archive.php?comicid=1531)" by Jorge Cham ([phdcomics.com](https://phdcomics.com/))](images/phd-comic-version-control-code-cropped-lower.gif)
+:::
+::::
+:::: {.column width="58%"}
+::: {.fragment}
+### What is version control?
+*"Version control is a systematic approach to record changes in a set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions."* ([Turing Way](https://the-turing-way.netlify.app/reproducible-research/vcs.html))
+:::
+::: {.fragment}
+![{{< fa display >}} [lennartwittkuhn.com/version-control-course-uhh-ws23](https://lennartwittkuhn.com/version-control-course-uhh-ws23/)](images/version-control-course-website-screenshot.png){width=80%}
+:::
+::::
+:::::
+
+::: {.notes}
+- not only boosting digital literacy in teachers but also students
+- Version control is relevant for anyone who wants to track the evolution of digital objects
+- When everything is relevant, track everything.
+:::
+
+# {{< var title >}}
+
+## Computational Reproducibility
+
+::::: {.columns}
+:::: {.column width="50%"}
+::: {.fragment}
+*"... when the **same analysis** steps performed on the **same dataset** consistently produce the **same answer**."* ^[@turingway2022, see ["Guide on Reproducible Research"](https://the-turing-way.netlify.app/reproducible-research/overview/overview-definitions)]
+
+![by [Scriberia]({{< var links.scriberia >}}) for @turingway2022 ([Link](https://zenodo.org/record/3678226/), [CC BY
+4.0]({{< var links.ccby40 >}}))](images/turing-way-reproducibility.png)
+:::
+::::
+:::: {.column width="50%"}
+::: {.fragment}
+### The problem
+:::
+::: {.incremental}
+- about **more than half** of research is **not reproducible** [^1]
+  - research data, code, software and materials are **often not available** "upon *reasonable* [sic] request"
+  - if resources are shared, they are **often incomplete**
+- 90% of researchers: "reproducibility crisis" (*N* = 1576) ^[see @baker2016, *Nature*]
+
+:::
+::: {.fragment}
+### Why?
+:::
+::: {.incremental}
+- computational reproducibility is hard
+- researchers lack training 
+- incentives are not (yet) aligned ^[see e.g., @poldrack2019]
+- "natural selection of bad science" ^[see @smaldino2016]
+:::
+::::
+:::::
+
+::: {.fragment}
+"*... accumulated evidence indicates that there is **substantial room for improvement** with regard to research practices to maximize the efficiency of the research community's use of the public's financial investment.*" [@munafò2017]
+:::
+::: {.fragment}
+We need a **professional toolkit** for digital scientific outputs!
+:::
+
+[^1]: for example, in Psychology: @crüwell2023; @hardwicke2021; @obels2020; @wicherts2006
 
 
-## Thank you! :pray:
+::: {.notes}
+- also called "analytical reproducibility"
+- in contrast: "Replication" = same analysis on different data
+- computational reproducibility should be a *minimum* requirement
+- 90% of respondents to a survey in Nature agreed that there is a "reproducibility crisis"
+- non-scientist friends react very surprised at the lack of professionalization in science
+- we are currently violating the public's trust = deep ethical problem
+- natural selection: as a researcher, what's good for your career is not necessarily good for science (how to get funding, how to get published, how to get cited)
+- journals are interested in selling us back our data, not improving the quality of science
+:::
+
+## Science as distributed open-source *knowledge* development ^[inspired by [Richard McElreath](https://www.eva.mpg.de/ecology/staff/richard-mcelreath/)'s ["Science as Amateur Software Development"](https://www.youtube.com/watch?v=8qzVV7eEiaI) (2023)]
+
+::::: {.columns}
+:::: {.column width="45%"}
+::: {.fragment fragment-index=1}
+#### How can we do better science?
+![](images/version-control-workflow.png)
+:::
+::: {.fragment fragment-index=3}
+#### The long-term challenges are largely non-technical
+- open-source, avoiding commercial vendor lock-in
+- adopting new practices and upgrading workflows
+- moving towards a "culture of reproducibility" ^[see ["Towards a culture of computational reproducibility"](https://mediasite.video.ufl.edu/Mediasite/Play/b26b123b082e4adba367b8f2b91ce34a1d) by Russ Poldrack, Stanford University]
+- changing incentives, policies & funding schemes
+:::
+::::
+:::: {.column width="55%"}
+::: {.fragment fragment-index=2}
+#### Technical solutions already exist!
+- **Version control** of digital research outputs (e.g., [Git](https://gitlab.com/), [DataLad](https://www.datalad.org/))
+- Integration with **flexible infrastructure** (e.g., [GitLab](https://gitlab.com/))
+- Systematic **contributions** & review (e.g., [pull](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) / [merge](https://docs.gitlab.com/ee/user/project/merge_requests/) requests)
+- **Automated integration** & deployment (e.g., [CI/CD](https://about.gitlab.com/topics/ci-cd/))
+- Reproducible **computational environments** (e.g., [Docker](https://www.docker.com/))
+- Transparent **execution** and **build** systems (e.g., [GNU Make](https://www.gnu.org/software/make/))
+- Project **communication next to code & data** (e.g., [Issues](https://github.com/features/issues))
+:::
+::: {.fragment fragment-index=4}
+![Source: ["Strategy for Cultural Change"](https://www.cos.io/blog/strategy-for-culture-change) (2019) by the [Center for Open Science](https://www.cos.io/)](images/cos-pyramid-cultural-change.png){width=80%}
+:::
+::::
+:::::
+
+::: {.notes}
+- In science, we try to generate knowledge about the world
+- For the sake of insight or explanation but also to perform evidence-based interventions
+- Problem: We need to integrate our work with the work of other people into a common body of knowledge
+- Process of continuous integration
+- It's fair to say that the way that this is done in science is fairly chaotic
+- Other disciplines with a analogous problem have professionalized the process of continuos integration
+- primary anology: software development
+- why? a lot of contemporary science involves digital research data and involves software development (or code) to analyze these data (or perhaps disciplines could really benefit from this)
+- this might be shocking to some (you want to study the brain but now you need to code) but this is the way it is
+- software development is a standard part of being a scientist
+- we have to understand the tools that we use to do our job
+- software development has a lot of tools that allow to handle continous integration professionally
+- **distributed** and **asynchronous** work in large, international teams
+- main work includes working with **data** using **code**
+- when you train as a software developer, you learn a common stack of tools
+- Testing: writing code to test if code works
+:::
+
+## Summary
+
+::: {.fragment .fade-in-then-semi-out}
+### Digital Research
+1. **Castellum:** We are setting up a digital, privacy-compliant participant management system
+2. **MRI Total:** We are working on an automated and reproducible pipeline for MRI data processing & quality control
+:::
+::: {.fragment .fade-in-then-semi-out}
+### Digital Teaching
+3. **FAIR & Reproducible Teaching:** We are developing workflows for FAIR, reproducible & open educational resources
+4. **Digital & Data Literacy:** We are teaching version control to the next generation of researchers
+:::
+::: {.fragment .fade-in-then-semi-out}
+### Science as distributed open-source knowledge development
+5. We need a **professional toolkit for digital research outputs**, inspired by open-source software development
+:::
+
+## References
+
+::: {#refs}
+:::
+
+## Thank you!
 
 :::: {.columns}
 ::: {.column width="35%"}
@@ -66,22 +402,28 @@ date: 10/10/2023
 {{< fa brands twitter >}} [Twitter]({{< var twitter >}})
 :::
 
-::: {.column width="40%"}
+::: {.column width="65%"}
+:computer: **Slides:** [{{< var website >}}]({{< var website >}})
 
-{{< fa image >}} **Images:** [Scriberia with The Turing Way community](https://doi.org/10.5281/zenodo.3332807) (License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))
-
-:computer: **Slides:** Slides are publicly available at [{{< var website >}}]({{< var website >}})
+{{< fa brands github >}} **Source:** [{{< var source >}}]({{< var source >}})
 
 :package: **Software:** Reproducible slides build with [Quarto](https://quarto.org/) and deployed to [GitHub Pages](https://pages.github.com/) using [GitHub Actions](https://github.com/features/actions) (details in the [Quarto docs](https://quarto.org/docs/publishing/github-pages.html))
 
-{{< fa brands github >}} **Source:** Source code is available at [{{< var source >}}]({{< var source >}})
-
-:trackball: **DOI:** [10.5281/zenodo.8296951 ](https://zenodo.org/badge/latestdoi/682015737) (generated using GitHub + [Zenodo](https://zenodo.org/), see [GitHub docs](https://guides.github.com/activities/citable-code/))
+:trackball: **DOI:** [10.25592/uhhfdm.13467](https://doi.org/10.25592/uhhfdm.13467)
 
 {{< fa scale-balanced >}} **License:** {{< var license-long >}}
 
-:speech_balloon: **Contact:** I welcome any feedback via [email]({{< var mailto >}}) or [GitHub issues]({{< var issues >}}).
-Thank you!
+{{< fa comments regular >}} **Feedback:** In person at this event, via [email]({{< var mailto >}}) or [GitHub Issues]({{< var issues >}})
+
+::: {layout-ncol=2}
+![](images/uhh-logo.png){width=50%}
+
+![](images/mpib-logo.png){width=70%}
 :::
 
+:::
 ::::
+
+## Reproducibility Crisis
+
+![*N* = 1576; @baker2016, *Nature*](images/baker2016-nature-reproducibility.jpg){width=10%}

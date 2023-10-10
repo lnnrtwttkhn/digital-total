@@ -1,6 +1,6 @@
-title: "Title"
-subtitle: "[Digital Total](https://www.hcds.uni-hamburg.de/en/current/all-events/digital-total.html)"
-footer: "{{< var title >}}"
+title: "Science as distributed open-source<br>*knowledge* development"
+subtitle: "[Digital Total](https://www.hcds.uni-hamburg.de/en/current/all-events/digital-total.html) at [University of Hamburg](https://www.uni-hamburg.de/)"
+footer: "Science as distributed open-source knowledge development"
 project-name: "digital-total"
 source: "https://github.com/lnnrtwttkhn/{{< var project-name >}}"
 website: "https://lennartwittkuhn.com/{{< var project-name >}}"
@@ -11,8 +11,8 @@ issues: "https://github.com/lnnrtwttkhn/{{< var project-name >}}/issues"
 license-long: "Creative Commons Attribution 4.0 International ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/))"
 license-short: "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
 license-badge: "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)"
-doi: 10.5281/zenodo.8300151
-doi-badge: "[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.8300151.svg)](https://doi.org/10.5281/zenodo.8300151)"
+doi: 10.25592/uhhfdm.13467
+doi-badge: "[![DOI](https://www.fdr.uni-hamburg.de/badge/DOI/10.25592/uhhfdm.13467.svg)](https://doi.org/10.25592/uhhfdm.13467)"
 homepage: https://lennartwittkuhn.com/
 email: "lennart.wittkuhn@uni-hamburg.de"
 mailto: "mailto:{{< var email >}}"
@@ -23,3 +23,10 @@ linkedin: https://www.linkedin.com/in/lennart-wittkuhn-6a079a1a8/
 scholar: https://scholar.google.com/citations?user=GXvJB1kAAAAJ&hl=en
 orcid: 0000-0003-2966-6888
 orcid-link: "https://orcid.org/{{< var orcid >}}"
+links:
+  castellum-uhh-website: "https://lennartwittkuhn.com/castellum-uhh/"
+  castellum-uhh-github: "https://github.com/lnnrtwttkhn/castellum-uhh/"
+  castellum-mpib-gitlab: "https://git.mpib-berlin.mpg.de/castellum"
+  digital-strategy: "https://www.pb.uni-hamburg.de/ueber-die-fakultaet/downloads/2023-01-26-digitalisierungsstrategie-pb-fakultaet---extern.pdf"
+  scriberia: "https://www.scriberia.com/"
+  ccby40: "https://creativecommons.org/licenses/by/4.0/"
