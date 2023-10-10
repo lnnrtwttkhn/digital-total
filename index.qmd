@@ -56,8 +56,44 @@ Thanks!
 
 # Agenda
 
-1. **Digital Research & Teaching**
+1. **Digital Research & Digital Teaching**
 1. **{{< var footer >}}**
+
+::: {.notes}
+Two topics:
+1. Digital Research & Digital Teaching in our research group, institute and factulty
+1. Propose an idea of how we can conduct science in this age of digitalization, data and code
+
+- Title is cliff-hanger for the last part of my talk
+:::
+
+## Our research on "Mechanisms of Learning and Change"
+::: {.fragment}
+#### How does the brain use past experience to guide future decisions?
+<br>
+:::
+
+::::: {.columns}
+:::: {.column width="60%"}
+::: {.fragment}
+![taken from @lake2016: "Building machines that learn and think like people"](images/lake-learning.jpeg)
+:::
+::::
+:::: {.column width="40%"}
+::: {.fragment}
+![](images/research-areas.png)
+:::
+::::
+:::::
+
+::: {.notes}
+- we heard a lot about artificial intelligence
+- what does "intelligence" even mean?
+- as psychologists & cognitive neuroscientists we are interested in understanding human "natural" or biological intelligence
+- our group: intersted in the convergence between neuroscience and artifiicial intelligence research ("neuro AI")
+- e.g., "why are humans so fast in learning a wide range of tasks in complex environments"
+- we use cogntive and psychological approaches, neural measurmenet using fMRI and EEG and integrate and compare them with computational approaches from reinforcement learning and artificial neural networks
+:::
 
 # Digital Research
 
@@ -99,9 +135,12 @@ We have **access to a broad participant database** through which participants ca
 :::::
 
 ::: {.notes}
-- Diverse **participants groups**: All age groups (including children), "special" groups (e.g., with congenital blindness, psychiatric disorders, etc.)
-- Diverse **experimental settings**: In-lab behavioral, groups, online, observational, MRI, EEG, fNIRS, etc.
-- {{< fa list-check >}} subject management, pseudonyms, recruitment, appointments
+- main research: experimental studies with human research participants
+- **Diverse participants groups**: All age groups (including children), "special" groups (e.g., with congenital blindness, psychiatric disorders, etc.)
+- **Diverse experimental settings**: In-lab behavioral, groups, online, observational, MRI, EEG, fNIRS, etc.
+- functions: subject management, pseudonyms, recruitment, appointments
+- a crucial part of our work is the recruitment of research participants
+- currently, no sytematic way
 :::
 
 ## MRI Total: Transparent and reproducible MRI data processing
@@ -137,6 +176,13 @@ We have **access to a broad participant database** through which participants ca
 ::::
 :::::
 
+::: {.notes}
+- we are interested in how the brain works
+- we use MRI to see the brain in action
+- this results in large amount of very complex data that we need to store, process and analyze
+- this project (in honor of this event: MRI total): we are working on a data procesing pipeline that allows us ti process our data in an automated, transparent, reproducible and reusable way
+:::
+
 # Digital Teaching
 
 ## Teaching: Reproducible & FAIR open educational resources (OERs)
@@ -169,6 +215,9 @@ See @plomp2023 for an approach using [Quarto](https://quarto.org/) & [Git](https
 :::::
 
 ::: {.notes}
+- Teaching and teaching preparation can take a lot of time
+- Wouldn't it be nice if we can easily access, reuse or adapt teaching materials by others or even collaborate on the development of teaching materials
+- we are working out an approach to prepare reproducible & FAIR open education resources
 - FAIR principles can also be applied to teaching materials
 - Interoperable: A PDF is open but difficult to reuse
 :::
@@ -195,12 +244,13 @@ See @plomp2023 for an approach using [Quarto](https://quarto.org/) & [Git](https
 *"Version control is a systematic approach to record changes in a set of files, over time. This allows you and your collaborators to track the history, see what changed, and recall specific versions."* ([Turing Way](https://the-turing-way.netlify.app/reproducible-research/vcs.html))
 :::
 ::: {.fragment}
-![](images/version-control-course-website-screenshot.png)
+![{{< fa display >}} [lennartwittkuhn.com/version-control-course-uhh-ws23](https://lennartwittkuhn.com/version-control-course-uhh-ws23/)](images/version-control-course-website-screenshot.png){width=80%}
 :::
 ::::
 :::::
 
 ::: {.notes}
+- not only boosting digital literacy in teachers but also students
 - Version control is relevant for anyone who wants to track the evolution of digital objects
 - When everything is relevant, track everything.
 :::
