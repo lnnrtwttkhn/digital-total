@@ -364,6 +364,13 @@ We need a **professional toolkit** for digital scientific outputs!
 {{< fa scale-balanced >}} **License:** {{< var license-long >}}
 
 {{< fa comments regular >}} **Feedback:** In person at this event, via [email]({{< var mailto >}}) or [GitHub Issues]({{< var issues >}})
+
+::: {layout-ncol=2}
+![](images/uhh-logo.png){width=50%}
+
+![](images/mpib-logo.png){width=70%}
+:::
+
 :::
 ::::
 
