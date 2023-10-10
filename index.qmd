@@ -19,7 +19,7 @@ date: 10/10/2023
 
 ### Me
 
-:scientist: **Position:** I am a **Postdoctoral Research Scientist** in the Research Group ["Mechanisms of Learning & Change"](https://schucklab.gitlab.io/) at the [Institute of Psychology](https://www.psy.uni-hamburg.de/en.html) at the [University of Hamburg](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html)
+:microscope: **Position:** I am a **Postdoctoral Research Scientist** in the Research Group ["Mechanisms of Learning & Change"](https://schucklab.gitlab.io/) at the [Institute of Psychology](https://www.psy.uni-hamburg.de/en.html) at the [University of Hamburg](https://www.psy.uni-hamburg.de/en/arbeitsbereiche/lern-und-veraenderungsmechanismen.html)
 
 :mortar_board: **Education:** BSc Psychology & MSc Cognitive Neuroscience (Technische Universität Dresden), PhD Cognitive Neuroscience (Freie Universität Berlin)
 
@@ -158,7 +158,7 @@ We have **access to a broad participant database** through which participants ca
 :::
 ::: {.fragment .fade-in-then-semi-out}
 #### 2. Standardization of human neuroimaging data
-![Brain Imaging Data Structure [BIDS, @gorgolewski2016]](images/bids.png)
+![Brain Imaging Data Structure [BIDS, @gorgolewski2016]](images/bids.png){width=85%}
 :::
 ::::
 :::: {.column width="45%"}
