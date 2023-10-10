@@ -67,7 +67,7 @@ Two topics:
 - Title is cliff-hanger for the last part of my talk
 :::
 
-## Our research on "Mechanisms of Learning and Change"
+## Research on "Mechanisms of Learning and Change"
 ::: {.fragment}
 #### How does the brain use past experience to guide future decisions?
 <br>
