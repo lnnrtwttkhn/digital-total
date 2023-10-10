@@ -54,10 +54,10 @@ Thanks!
 ::::
 :::::
 
-## Agenda
+# Agenda
 
-1. Digital Research & Teaching
-1. {{< var footer >}}
+1. **Digital Research & Teaching**
+1. **{{< var footer >}}**
 
 # Digital Research
 
